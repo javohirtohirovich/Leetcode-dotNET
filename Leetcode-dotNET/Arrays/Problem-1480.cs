@@ -1,4 +1,4 @@
-﻿namespace Leetcode_dotNET.Array;
+﻿namespace Leetcode_dotNET.Arrays;
 public class Problem_1480
 {
     public int[] RunningSum(int[] nums)
