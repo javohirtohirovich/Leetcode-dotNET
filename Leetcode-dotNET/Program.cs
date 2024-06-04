@@ -1,11 +1,10 @@
-﻿using Leetcode_dotNET.Array;
+﻿using Leetcode_dotNET.Arrays;
 
 class Program
 {
     public static void Main(string[] args)
     {
-        Problem_1816 problem_1816 = new Problem_1816();
-
-        Console.WriteLine(problem_1816.TruncateSentence("Javo olma ketdik",2));
+        var problem = new Problem_1662();
+        Console.WriteLine(problem.ArrayStringsAreEqual(new string[] { "a", "cb" }, new string[] { "ab", "c" }));
     }
 }
