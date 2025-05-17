@@ -5,7 +5,7 @@ class Program
 {
     public static void Main(string[] args)
     {
-        var problem = new Problem_1941();
-        Console.WriteLine(problem.AreOccurrencesEqual("aaabb"));
+        var problem = new Problem_2138();
+        Console.WriteLine(problem.DivideString("ctoyjrwtngqwt", 8, 'n'));
     }
 }

@@ -48,7 +48,7 @@ internal class Problem_1941
     //    foreach (int f in freq)
     //    {
     //        if (f == 0) continue;
-    //        if (target == 0)
+    //        if (target == 0) 
     //            target = f;
     //        else if (f != target)
     //            return false;
