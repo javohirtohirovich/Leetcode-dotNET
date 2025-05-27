@@ -5,7 +5,7 @@ class Program
 {
     public static void Main(string[] args)
     {
-        var problem = new Problem_2138();
-        Console.WriteLine(problem.DivideString("ctoyjrwtngqwt", 8, 'n'));
+        var problem = new Problem_125();
+        Console.WriteLine(problem.IsPalindrome("A man, a plan, a canal: Panama"));
     }
 }
