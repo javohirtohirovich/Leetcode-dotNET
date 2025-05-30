@@ -5,7 +5,7 @@ class Program
 {
     public static void Main(string[] args)
     {
-        var problem = new Problem_171();
-        Console.WriteLine(problem.TitleToNumber("AB"));
+        var problem = new Problem_3110();
+        Console.WriteLine(problem.ScoreOfString("zaz"));
     }
 }
