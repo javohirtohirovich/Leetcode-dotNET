@@ -5,7 +5,7 @@ class Program
 {
     public static void Main(string[] args)
     {
-        var problem = new Problem_242();
-        Console.WriteLine(problem.IsAnagram("anagram", "nagaram"));
+        var problem = new Problem_0205();
+        Console.WriteLine(problem.IsIsomorphic("badc","baba"));
     }
 }
