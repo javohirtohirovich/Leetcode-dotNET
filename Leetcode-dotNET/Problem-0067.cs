@@ -1,6 +1,6 @@
 ﻿namespace Leetcode_dotNET;
 
-public class Problem_67
+public class Problem_0067
 {
     public string AddBinary(string a, string b)
     {

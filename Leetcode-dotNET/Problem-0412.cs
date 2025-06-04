@@ -1,6 +1,6 @@
 ﻿namespace Leetcode_dotNET;
 
-public class Problem_412
+public class Problem_0412
 {
     public IList<string> FizzBuzz(int n)
     {

@@ -1,6 +1,6 @@
 ﻿namespace Leetcode_dotNET;
 
-public class Problem_28
+public class Problem_0028
 {
     public int StrStr(string haystack, string needle)
     {

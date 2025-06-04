@@ -1,6 +1,6 @@
 ﻿namespace Leetcode_dotNET;
 
-public class Problem_125
+public class Problem_0125
 {
     public bool IsPalindrome(string s)
     {

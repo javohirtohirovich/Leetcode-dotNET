@@ -1,6 +1,6 @@
 ﻿namespace Leetcode_dotNET;
 
-public class Problem_171
+public class Problem_0171
 {
     public int TitleToNumber(string columnTitle)
     {

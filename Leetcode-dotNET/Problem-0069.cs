@@ -1,6 +1,6 @@
 ﻿namespace Leetcode_dotNET;
 
-public class Problem_69
+public class Problem_0069
 {
     public int MySqrt(int x)
     {

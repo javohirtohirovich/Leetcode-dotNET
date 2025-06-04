@@ -1,6 +1,6 @@
 ﻿namespace Leetcode_dotNET;
 
-public class Problem_389
+public class Problem_0389
 {
     public char FindTheDifference(string s, string t)
     {

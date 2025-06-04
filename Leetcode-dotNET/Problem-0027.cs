@@ -1,6 +1,6 @@
 ﻿namespace Leetcode_dotNET;
 
-public class Problem_27
+public class Problem_0027
 {
     public int RemoveElement(int[] nums, int val)
     {

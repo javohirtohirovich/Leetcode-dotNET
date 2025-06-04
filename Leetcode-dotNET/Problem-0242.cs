@@ -1,6 +1,6 @@
 ﻿namespace Leetcode_dotNET;
 
-public class Problem_242
+public class Problem_0242
 {
     public bool IsAnagram(string s, string t)
     {

@@ -1,6 +1,6 @@
 ﻿namespace Leetcode_dotNET;
 
-public class Problem_26
+public class Problem_0026
 {
     public int RemoveDuplicates(int[] nums)
     {
