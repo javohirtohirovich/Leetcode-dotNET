@@ -2,23 +2,55 @@
 
 public class Problem_0242
 {
+
     public bool IsAnagram(string s, string t)
     {
-        if (s.Length != t.Length)
+        if(s.Length != t.Length)
         {
             return false;
         }
-        char[] sArray = s.ToCharArray().OrderBy(c=>c).ToArray();
-        char[] tArray = t.ToCharArray().OrderBy(c=>c).ToArray();
-        for (int i = 0; i < sArray.Length; i++)
+
+        var lettersCount = new int[26];
+        foreach (var c in s)
         {
-            if (sArray[i] != tArray[i])
+            lettersCount[c - 'a']++;
+        }
+        foreach (var c in t)
+        {
+            lettersCount[c - 'a']--;
+        }
+
+        foreach (var count in lettersCount)
+        {
+            if (count != 0)
             {
                 return false;
             }
         }
+
         return true;
+
     }
+
+
+    //public bool IsAnagram(string s, string t)
+    //{
+    //    if (s.Length != t.Length)
+    //    {
+    //        return false;
+    //    }
+    //    char[] sArray = s.ToCharArray().OrderBy(c=>c).ToArray();
+    //    char[] tArray = t.ToCharArray().OrderBy(c=>c).ToArray();
+    //    for (int i = 0; i < sArray.Length; i++)
+    //    {
+    //        if (sArray[i] != tArray[i])
+    //        {
+    //            return false;
+    //        }
+    //    }
+    //    return true;
+    //}
+
 
     //Alternative solution using a frequency count
 
