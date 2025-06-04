@@ -6,6 +6,6 @@ class Program
     public static void Main(string[] args)
     {
         var problem = new Problem_0205();
-        Console.WriteLine(problem.IsIsomorphic("egg", "add"));
+        Console.WriteLine(problem.IsIsomorphic("badc","baba"));
     }
 }

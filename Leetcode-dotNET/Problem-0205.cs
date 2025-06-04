@@ -4,27 +4,38 @@ public class Problem_0205
 {
     public bool IsIsomorphic(string s, string t)
     {
-        var arr1 = new int[26];
-        var arr2 = new int[26];
+        if (s.Length != t.Length) return false;
 
-        foreach(var l in s)
+        var dict1 = new Dictionary<char, char>();
+        var dict2 = new Dictionary<char, char>();
+        for (int i = 0; i < s.Length; i++)
         {
-            arr1[l - 'a']++;
-        }
-
-        foreach(var l in t)
-        {
-            arr2[l - 'a']++;
-        }
-
-        for(int i = 0; i < 26; i++)
-        {
-
-            if(arr1[i] != arr2[i])
+            if (!dict1.ContainsKey(s[i]))
             {
-                return false;
+                dict1.Add(s[i], t[i]);
+            }
+            else
+            {
+                if (dict1[s[i]] != t[i])
+                {
+                    return false;
+                }
+            }
+
+            if (!dict2.ContainsKey(t[i]))
+            {
+                dict2.Add(t[i], s[i]);
+            }
+            else
+            {
+                if(dict2[t[i]] != s[i])
+                {
+                    return false;
+                }
             }
         }
+
         return true;
+
     }
 }
