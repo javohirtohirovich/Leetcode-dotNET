@@ -1,4 +1,4 @@
-﻿namespace Leetcode_dotNET;
+namespace Leetcode_dotNET;
 
 public class Problem_0205
 {
