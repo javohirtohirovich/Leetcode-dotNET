@@ -5,7 +5,7 @@ class Program
 {
     public static void Main(string[] args)
     {
-        var problem = new Problem_0500();
-        Console.WriteLine(problem.FindWords(new string[] { "Hello", "Alaska", "Dad", "Peace" }));
+        var problem = new Problem_0482();
+        Console.WriteLine(problem.LicenseKeyFormatting("2-5g-3-J", 2));
     }
 }
