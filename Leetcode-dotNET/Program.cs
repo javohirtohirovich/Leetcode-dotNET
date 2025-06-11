@@ -5,7 +5,7 @@ class Program
 {
     public static void Main(string[] args)
     {
-        var problem = new Problem_0541();
-        Console.WriteLine(problem.ReverseStr("abcdefg",2));
+        var problem = new Problem_0551();
+        Console.WriteLine(problem.CheckRecord("PPALLL"));
     }
 }
