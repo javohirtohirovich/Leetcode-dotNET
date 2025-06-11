@@ -4,18 +4,23 @@ public class Problem_0541
 {
     public string ReverseStr(string s, int k)
     {
-        var sLetters = new char[s.Length];
-        int j = 0;
-        for (int i = k - 1; i >= 0; i--)
+        var sLetters = s.ToArray<char>();
+        for(int i = 0; i < s.Length; i += k * 2)
         {
-            sLetters[j] = s[i];
-            j++;
+            int a = i;
+            int b = Math.Min(i + k - 1, s.Length - 1);
+            while (a < b)
+            {
+                var temp = sLetters[a];
+                sLetters[a] = sLetters[b];
+                sLetters[b] = temp;
+
+                a++;
+                b--;
+            }
         }
 
-        for(int i= j; i< s.Length; i++)
-        {
-            sLetters[i] = s[i];
-        }
+       
 
         return new string(sLetters);
     }
