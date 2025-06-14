@@ -5,7 +5,7 @@ class Program
 {
     public static void Main(string[] args)
     {
-        var problem = new Problem_0599();
-        Console.WriteLine(problem.FindRestaurant(new string[] { "Shogun", "Tapioca Express", "Burger King", "KFC" }, new string[] { "KFC", "Shogun", "Burger King" }));
+        var problem = new Problem_0696();
+        Console.WriteLine(problem.CountBinarySubstrings("00110011"));
     }
 }
