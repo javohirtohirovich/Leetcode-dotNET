@@ -5,7 +5,7 @@ class Program
 {
     public static void Main(string[] args)
     {
-        var problem = new Problem_0696();
-        Console.WriteLine(problem.CountBinarySubstrings("00110011"));
+        var problem = new Problem_2566();
+        Console.WriteLine(problem.MinMaxDifference(11891));
     }
 }
