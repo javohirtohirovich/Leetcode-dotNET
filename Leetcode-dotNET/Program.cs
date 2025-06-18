@@ -5,7 +5,7 @@ class Program
 {
     public static void Main(string[] args)
     {
-        var problem = new Problem_2566();
-        Console.WriteLine(problem.MinMaxDifference(11891));
+        var problem = new Problem_0748();
+        Console.WriteLine(problem.ShortestCompletingWord("1s3 PSt", new string[] { "step", "steps", "stripe", "stepple" }));
     }
 }
