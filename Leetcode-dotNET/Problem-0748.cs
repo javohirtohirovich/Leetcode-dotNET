@@ -30,25 +30,29 @@ public class Problem_0748
 
         var minResult = int.MaxValue;
         var result = "";
-        foreach (var word in words)
+        for (int j = 0; j < letterCountList.Count; j++)
         {
             var ishora = true;
 
             for (int i = 0; i < 26; i++)
             {
-                if (licensePlateLetter[i] > word[i])
+                if (licensePlateLetter[i] != 0)
                 {
-                    ishora = false;
-                    break;
+                    if (licensePlateLetter[i] > letterCountList[j][i])
+                    {
+                        ishora = false;
+                        break;
+                    }
                 }
+
 
             }
             if (ishora)
             {
-                if (word.Length < minResult)
+                if (words[j].Length < minResult)
                 {
-                    result = word;
-                    minResult = word.Length;
+                    result = words[j];
+                    minResult = words[j].Length;
                 }
             }
         }
