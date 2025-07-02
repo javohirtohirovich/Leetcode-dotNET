@@ -44,8 +44,6 @@ public class Problem_0748
                         break;
                     }
                 }
-
-
             }
             if (ishora)
             {
