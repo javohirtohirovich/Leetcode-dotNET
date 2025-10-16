@@ -2,9 +2,7 @@
 
 public class Problem_0069
 {
-
     //new solution use binary solution
-
     public int MySqrt(int x)
     {
         if (x < 2) return x;
