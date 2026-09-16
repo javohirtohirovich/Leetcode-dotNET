@@ -88,7 +88,7 @@ My solutions to LeetCode problems, written in C#.
 | 819 | [Most Common Word](https://leetcode.com/problems/most-common-word/) | 🟢 Easy | [C#](Leetcode-dotNET/Problem-0819.cs) |
 | 821 | [Shortest Distance to a Character](https://leetcode.com/problems/shortest-distance-to-a-character/) | 🟢 Easy | [C#](Leetcode-dotNET/Problem-0821.cs) |
 | 824 | [Goat Latin](https://leetcode.com/problems/goat-latin/) | 🟢 Easy | [C#](Leetcode-dotNET/Problem-0824.cs) |
-| 830 | [Positions of Large Groups](https://leetcode.com/problems/positions-of-large-groups/) | 🟢 Easy | [C#](Leetcode-dotNET/Problem-0831.cs) |
+| 830 | [Positions of Large Groups](https://leetcode.com/problems/positions-of-large-groups/) | 🟢 Easy | [C#](Leetcode-dotNET/Problem-0830.cs) |
 | 844 | [Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/) | 🟢 Easy | [C#](Leetcode-dotNET/Problem-0844.cs) |
 | 859 | [Buddy Strings](https://leetcode.com/problems/buddy-strings/) | 🟢 Easy | [C#](Leetcode-dotNET/Problem-0859.cs) |
 | 884 | [Uncommon Words from Two Sentences](https://leetcode.com/problems/uncommon-words-from-two-sentences/) | 🟢 Easy | [C#](Leetcode-dotNET/Problem-0884.cs) |

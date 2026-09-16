@@ -1,6 +1,6 @@
 ﻿namespace Leetcode_dotNET;
 
-public class Problem_0831
+public class Problem_0830
 {
     public IList<IList<int>> LargeGroupPositions(string s)
     {
